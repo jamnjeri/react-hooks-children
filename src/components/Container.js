@@ -7,6 +7,7 @@ function Container({
   direction = "horizontal", // possible values: vertical, horizontal
   contentPosition = "center", // possible values: left, right, center
 }) {
+
   return (
     <div className={`container ${textPosition}`}>
       {header ? <h2>{header}</h2> : null}
@@ -17,5 +18,7 @@ function Container({
     </div>
   );
 }
+
+
 
 export default Container;
